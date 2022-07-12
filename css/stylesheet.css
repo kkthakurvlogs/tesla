@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* ####### html main ##### */
+html
+{
+    font-size: 62.5%;    
+}
+
+ul li 
+{
+    list-style: none;
+}
+
+.header
+{   
+
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/header.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+     background-repeat: no-repeat;
+}
+   
+.logo img
+{
+    
+    height: 15vh;
+    padding-left: 3em ;
+    padding-top: 2em;
+    display: inline;
+    
+}
+
+
+.nav_items
+{
+    overflow: hidden;
+    position: absolute ;
+    left: 20%;
+    bottom: 90%;
+    display: inline;
+    
+    
+
+}
+.nav_items ::after
+{
+    content: '';
+    display: inline;
+    clear: both; 
+} 
+
+.nav_items li
+{
+    display: inline;
+    padding-left: 2em;
+    
+   
+}
+.nav_items2  a
+{
+    padding-left: 14em;
+}
+
+
+.nav_items  li a
+{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center
+{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3em;
+}
+
+.button
+{
+    position: absolute;
+    top:75% ;
+    left:30%;
+    padding: 3em;
+
+
+
+}
+.btm_a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    padding-left:8em;
+    padding-right:8em;
+    margin-right:2em;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color:rgba(0,0,0,0.7);
+}
+
+.btm_b
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    padding:1em ;
+    padding-left:6em;
+    padding-right:6em;
+    margin-left: 2em;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color:rgba(255,255,255,0.9);
+}
+
+/* ############## page2############ */
+.page2
+
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/page2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+     background-repeat: no-repeat;
+     position: relative;
+}
+
+.center2
+{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4em;
+}
+
+/* ################# page3############## */
+
+.page3
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/dylan-calluy-D1w-heh9uMg-unsplash.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+     background-repeat: no-repeat;
+     position: relative;
+     
+}
+
+.btm_c
+{
+    position: absolute;
+    top: 76%;
+    left: 40.5%;
+    text-decoration: none;
+    color: black ;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    padding-left:5em;
+    padding-right:5em;
+    margin-right:2em;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color:rgba(255,255,255,0.9);
+}
+ 
+.footer
+{
+    position:absolute;
+    top:95.5%;
+    left: 18%;
+    display: inline;
+    padding-left:10em ;
+    padding-right: 10em;
+}
+
+.footer li
+{
+    display: inline;
+    color: white;
+    padding-left: 1.5em;
+    text-overflow: initial;
+    font-size: 1.4rem;
+
+}
